@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>שני דהן | זמרת לכניסה לחופה</title>
-<meta name="description" content="שני דהן, זמרת עם קול עמוק ומרגש, מלווה חתן וכלה בכניסה לחופה. קליפים, חבילות ומחירים, ובדיקת תאריך בוואטסאפ.">
+<title>שני דהן | זמרת לכניסה לחופה בחיפה והצפון</title>
+<meta name="description" content="שני דהן, זמרת מחיפה עם קול עמוק ומרגש, מלווה חתן וכלה בכניסה לחופה. קליפים, חבילות ומחירים, ובדיקת תאריך בוואטסאפ.">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="he_IL">
 <meta property="og:url" content="https://shanidahan.github.io/">
 <link rel="canonical" href="https://shanidahan.github.io/">
-<meta property="og:title" content="שני דהן | זמרת לכניסה לחופה">
+<meta property="og:title" content="שני דהן | זמרת לכניסה לחופה בחיפה">
 <meta property="og:description" content="קול עמוק ומרגש לרגע שכולם יזכרו מהחתונה. קליפים, חבילות ובדיקת תאריך.">
 <meta property="og:image" content="https://shanidahan.github.io/assets/share.jpg">
 <meta property="og:image:width" content="1200">
@@ -18,7 +18,9 @@
 <!-- טיוטה: למחוק את השורה הבאה כשהדף עולה סופית -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700&family=Bellefair&display=swap" rel="stylesheet">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700&family=Bellefair&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700&family=Bellefair&display=swap"></noscript>
+<link rel="preload" as="image" href="assets/hero-poster.jpg" fetchpriority="high">
 <style>
 :root{
   --night:#0c0a0d;
@@ -61,6 +63,7 @@ h2{font-family:var(--display);font-weight:400;font-size:clamp(2.7rem,8vw,5rem);l
 /* פתיחה */
 .hero{position:relative;min-height:100svh;display:flex;align-items:flex-end;overflow:hidden;isolation:isolate}
 .hero video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}
+@media (max-aspect-ratio:1/1){.hero video{transform:scale(.84);transform-origin:50% 30%;}.hero.hero::after{background:linear-gradient(to top,var(--night) 3%,rgba(12,10,13,.8) 30%,rgba(12,10,13,0) 62%),radial-gradient(ellipse 58% 50% at 50% 40%,transparent 38%,var(--night) 78%)}}
 .hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(to top,var(--night) 3%,rgba(12,10,13,.8) 30%,rgba(12,10,13,0) 62%),radial-gradient(ellipse at 50% 32%,transparent 42%,rgba(12,10,13,.62) 100%)}
 .hero .wrap{width:100%;padding-block:0 clamp(32px,6vw,64px)}
 .kicker{font-size:clamp(1.2rem,3.8vw,1.7rem);font-weight:600;color:var(--gold)}
@@ -73,7 +76,7 @@ h1{font-family:var(--display);font-weight:400;font-size:clamp(6.2rem,28vw,19rem)
 @keyframes rise{from{opacity:0;transform:translateY(26px)}to{opacity:1;transform:none}}
 
 @media (min-aspect-ratio:1/1) and (min-width:760px){
-  .hero video{transform:translateX(-20%) scale(1.4)}
+  .hero video{transform:translateX(-12%) scale(1.15)}
   .hero::after{background:linear-gradient(to left,var(--night) 12%,rgba(12,10,13,.72) 42%,rgba(12,10,13,0) 62%),linear-gradient(to top,var(--night) 2%,rgba(12,10,13,0) 40%)}
   .hero .wrap{max-width:none;padding-inline:6vw}
   h1{font-size:12vw}
@@ -166,6 +169,7 @@ footer .fb{fill:#1877f2}
 @media (min-width:760px){.sticky{inset-inline:auto 24px;bottom:24px}footer{padding-bottom:40px}}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.track{animation:none}.player img,.sticky{transition:none}.player:hover img{transform:none}}
 </style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Person", "@id": "https://shanidahan.github.io/#shani", "name": "שני דהן", "alternateName": "Shani Dahan", "jobTitle": "זמרת לכניסה לחופה", "description": "זמרת עם קול עמוק ומרגש, מלווה חתן וכלה בכניסה לחופה, בהכנסת חתן וכלה ובאירועים.", "url": "https://shanidahan.github.io/", "image": "https://shanidahan.github.io/assets/share.jpg", "telephone": "+972-50-637-3904", "knowsLanguage":"he","homeLocation":{"@type":"City","name":"חיפה"},"areaServed":[{"@type":"City","name":"חיפה"}], "sameAs": ["https://www.youtube.com/@Shanidahan", "https://www.facebook.com/ShaniDahanOfficial"]}, {"@type": "WebPage", "@id": "https://shanidahan.github.io/", "url": "https://shanidahan.github.io/", "name": "שני דהן | זמרת לכניסה לחופה", "inLanguage": "he-IL", "about": {"@id": "https://shanidahan.github.io/#shani"}, "primaryImageOfPage": "https://shanidahan.github.io/assets/share.jpg"}, {"@type": "VideoObject", "name": "שני דהן - הנך יפה רעייתי - כניסה לחופה", "description": "שני דהן שרה את 'הנך יפה רעייתי' בכניסה לחופה, בעיבוד מיוחד עם כינור.", "thumbnailUrl": "https://shanidahan.github.io/assets/clip-main.jpg", "uploadDate": "2018-05-27", "duration": "PT3M40S", "contentUrl": "https://shanidahan.github.io/assets/video-hineh.mp4", "embedUrl": "https://www.youtube.com/embed/HcGaTKpxsQ0", "performer": {"@id": "https://shanidahan.github.io/#shani"}}, {"@type": "VideoObject", "name": "שני דהן - בואי בשלום - כניסה לחופה", "description": "שני דהן שרה את 'בואי בשלום' בהכנסת חתן וכלה.", "thumbnailUrl": "https://shanidahan.github.io/assets/clip-boi.jpg", "uploadDate": "2016-07-04", "duration": "PT3M21S", "contentUrl": "https://shanidahan.github.io/assets/video-boi.mp4", "embedUrl": "https://www.youtube.com/embed/JnHCYiQCDoY", "performer": {"@id": "https://shanidahan.github.io/#shani"}}]}</script>
 </head>
 <body>
 
@@ -182,7 +186,7 @@ footer .fb{fill:#1877f2}
     <source src="assets/hero-tall.mp4" type="video/mp4">
   </video>
   <div class="wrap">
-    <p class="kicker">זמרת לכניסה לחופה</p>
+    <p class="kicker">זמרת לכניסה לחופה · חיפה</p>
     <h1>שני דהן</h1>
     <p class="lead">קול עמוק ומרגש, לרגע שכולם יזכרו מהחתונה שלכם.</p>
     <div class="actions">
